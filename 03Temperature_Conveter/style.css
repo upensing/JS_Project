@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Mulish",sans-serif;
+}
+body{
+    width: 100vh;
+    height: 100vh;
+    background-color: rgb(224, 216, 101);
+    display: grid;
+    place-items: center;
+    align-items: center;
+
+}
+form {
+    background-color: pink;
+    /* background-color: aquamarine; */
+    padding: 80px;
+}
+#temp{
+    width: 100px;
+    height: 20px;
+    
+}

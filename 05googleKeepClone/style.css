@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    outline: none;
+}
+body{
+    background-color: rgb(238, 238, 223);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+}
+.heading{
+    width: 1000vh;
+    height: 5.5rem;
+    background-color:  rgb(68, 0, 255);
+    color:white;
+    box-shadow: 0px 10px 16px hsl(59, 81%, 75%);
+}
+.heading h1{
+    line-height: 5.8rem;
+    margin-left: 2rem;
+    font-weight: 400;
+}
+.add:active{
+    transform: scale(0.98);
+}
+
+/* button style start */
+.btn-div{
+    position: flex;
+    top:7rem;
+    right: 1rem;
+    border: none;
+    border-radius: 3px;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+.btn{
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    outline: none;
+    border: 0;
+    vertical-align: middle;
+    text-decoration: none;
+    background: transparent;
+    padding: 0;
+    font-size: inherit;
+    font-family: inherit;
+}
+button{
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    outline: none;
+    border: 0;
+    vertical-align: middle;
+    text-decoration: none;
+    background:transparent;
+    padding: 0;
+    font-size: inherit;
+    font-family: inherit;
+
+}
+button.learn-more{
+    width: 12rem;
+    height: auto;
+}
+button.learn-more .circle{
+    transition: all 0.45 cubic-bezier(0.65,0.076, 1);
+    position: relative;
+    display: block;
+    margin: 0;
+    width: 4rem;
+    height: 3rem;
+    background: rgb(0, 255, 0);
+    border-radius: 1.625rem;
+}
+button.learn-more .circle .icon{
+    transition: all 0.45 cubic-bezier(0.65,0.076, 1);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background: none;
+}
+button.learn-more .circle .icon.arrow{
+    transition: all 0.45 cubic-bezier(0.65,0.076, 1);
+    left: 0.625;
+    width: 1.125rem;
+    height: 0.125rem;
+    background: none;
+}
+button.learn-more .circle .icon.arrow::before{
+    position: absolute;
+    content: "";
+    top: -0.25rem;
+    right: 0.0625rem;
+    width: 0.625rem;
+    height: 0.625rem;
+    border-top: 0.125rem solid rgb(84, 236, 13);
+    border-right: 0.125rem solid rgb(32, 236, 13);
+    transform: rotate(45deg);
+}
+button.learn-more .button-text{
+    transition: all(0.45s cubic-bezier(0.65 0, 0.076, 1));
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 0.75rem 0;
+    margin: 0 0 0 1.85rem;
+    color: blue;
+    font-weight: 700;
+    line-height: 1.6;
+    text-align: center;
+    text-transform: uppercase;
+}
+button:hover .circle {
+    width: 100px;
+}
+button:hover .circle .icon .arrow{
+    background-color:azure;
+    transform: translate(1rem, 0);
+}
+button.learn-more .circle .icon.arrow::before{
+    position: absolute;
+    content: "";
+    right: -0.25rem;
+    width: 0.625rem;
+    height: 0.625rem;
+    border-top: 0.125rem;
+    border-right: 0.125rem;
+    transform: rotate(45deg);
+}
+button:hover .button-text{
+    color: rgb(41, 179, 179);
+}
+
+/* button style end */
+
+.note{
+    background-color: azure;
+    margin: 30px 20px;
+    height: 200px;
+    width: 400px;
+    overflow: scroll;
+    margin-top: 7rem;
+    box-shadow: inset 1px 1px 0 green;
+}
+
+.note .tools{
+    display: flex;
+    justify-content: flex-end;
+    padding: 0.5rem;
+}
+
+.note .tools button {
+    background-color: transparent;
+    border: none;
+    color: azure;
+    cursor: pointer;
+    font-size: 1rem;
+    margin: 0.5rem;
+}
+.note textarea {
+    outline: none;
+    font-family: inherit;
+    font-size: 1.2rem;
+    border: none;
+    height: 300px;
+    width: 100%;
+    padding: 20px;
+}
+.fa-edit, 
+.fa-trash-alt{
+    color: azure;
+    padding: 10px;
+    background-color: green;
+    border-radius: 50%;
+}
+.fa-trash-alt{
+    background-color: orange;
+}
+.fa-edit:hover{
+    background-color: azure;
+    color: green;
+    filter: drop-shadow(0px 10px 8px azure);
+}
+.fa-trash-alt:hover{
+    background-color: rgb(82, 167, 167);
+}
+.main{
+    padding: 20px;
+}
+.hidden{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+

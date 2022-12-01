@@ -1,0 +1,23 @@
+body{
+    background-color: pink;
+    margin: 0px;
+    padding: 0px;
+}
+.main{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    position: relative;
+    bottom: 10px;
+}
+.counter-container{
+    display: flex;
+    display: inline-block;
+    justify-content: center;
+    align-items: flex-end;
+    margin: 20px;
+    margin-bottom: 0px;
+}

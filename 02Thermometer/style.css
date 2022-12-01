@@ -1,0 +1,26 @@
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.outerDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: block;   
+}
+.outerDiv h2{
+    color: rgb(14, 240, 44);
+    text-align: center;
+}
+
+.innerDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lightcyan;
+    border: 2px solid rgb(42, 165, 202);
+    border-radius: 8px;
+    height: 400px;
+    width: 400px;
+}
